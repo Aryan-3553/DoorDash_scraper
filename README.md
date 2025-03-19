@@ -1,21 +1,5 @@
 # DoorDash Menu Scraper
 
-A **Playwright + Scrapybara** script for collecting DoorDash menu data by intercepting the internal GraphQL calls. This setup leverages a remote, headful Chrome environment (hosted by [Scrapybara](https://scrapybara.com/)) to minimize Cloudflare-based blocking.
-
----
-
-## Table of Contents
-1. [Overview](#overview)  
-2. [Key Features](#key-features)  
-3. [Approaches Considered](#approaches-considered)  
-4. [Setup & Requirements](#setup--requirements)  
-5. [Installation with Rye and Running the Project](#installation-with-rye-and-running-the-project)  
-6. [Future Plans](#future-plans)  
-
----
-
-## Overview
-
 ### Objective
 Create a simple automation to scroll through a DoorDash restaurant’s menu items, click on each item to open a detail modal, and capture the resulting data (name, price, description, etc.) from the GraphQL responses.
 
