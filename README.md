@@ -61,8 +61,5 @@ rye add undetected-playwright-patch
 rye add python-dotenv
 rye add playwright
 
-###### run
-```
 python doordash_scraper.py
 
-```
