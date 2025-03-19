@@ -1,4 +1,4 @@
-# DoorDash Menu Scraper
+# DoorDash Menu Items Scraper
 
 ### Objective
 Create a simple automation to scroll through a DoorDash restaurant’s menu items, click on each item to open a detail modal, and capture the resulting data (name, price, description, etc.) from the GraphQL responses.
